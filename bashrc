@@ -107,3 +107,11 @@ export PATH="/usr/local/heroku/bin:$PATH"
 source ~/.profile
 
 bind -f ~/.inputrc
+bind '"\e[A": history-search-backward'
+bind '"\e[B": history-search-forward'
+bind '"\e[1;5C": forward-word'
+bind '"\e[1;5D": backward-word'
+bind '"\e[5C": forward-word'
+bind '"\e[5D": backward-word'
+bind '"\e\e[C": forward-word'
+bind '"\e\e[D": backward-word'
